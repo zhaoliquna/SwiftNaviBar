@@ -14,6 +14,11 @@
 		F1000F9E20C4D38400C704C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1000F9C20C4D38400C704C8 /* LaunchScreen.storyboard */; };
 		F1000FA920C4D38400C704C8 /* SwiftOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000FA820C4D38400C704C8 /* SwiftOneTests.swift */; };
 		F1000FB420C4D38400C704C8 /* SwiftOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000FB320C4D38400C704C8 /* SwiftOneUITests.swift */; };
+		F1F8757A20C62E3400997B16 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F8757920C62E3400997B16 /* TwoViewController.swift */; };
+		F1F8757C20C658F700997B16 /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F8757B20C658F700997B16 /* ClosureViewController.swift */; };
+		F1F8757E20C6926600997B16 /* EnumerationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F8757D20C6926600997B16 /* EnumerationViewController.swift */; };
+		F1F8758020C695FA00997B16 /* Structure ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F8757F20C695FA00997B16 /* Structure ViewController.swift */; };
+		F1FC70B220C787C900A7C178 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC70B120C787C900A7C178 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		F1000FAF20C4D38400C704C8 /* SwiftOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1000FB320C4D38400C704C8 /* SwiftOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOneUITests.swift; sourceTree = "<group>"; };
 		F1000FB520C4D38400C704C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F8757920C62E3400997B16 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		F1F8757B20C658F700997B16 /* ClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
+		F1F8757D20C6926600997B16 /* EnumerationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumerationViewController.swift; sourceTree = "<group>"; };
+		F1F8757F20C695FA00997B16 /* Structure ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structure ViewController.swift"; sourceTree = "<group>"; };
+		F1FC70B120C787C900A7C178 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 			children = (
 				F1000F9320C4D38400C704C8 /* AppDelegate.swift */,
 				F1000F9520C4D38400C704C8 /* ViewController.swift */,
+				F1F8757920C62E3400997B16 /* TwoViewController.swift */,
+				F1F8757B20C658F700997B16 /* ClosureViewController.swift */,
+				F1F8757D20C6926600997B16 /* EnumerationViewController.swift */,
+				F1F8757F20C695FA00997B16 /* Structure ViewController.swift */,
+				F1FC70B120C787C900A7C178 /* Model.swift */,
 				F1000F9720C4D38400C704C8 /* Main.storyboard */,
 				F1000F9A20C4D38400C704C8 /* Assets.xcassets */,
 				F1000F9C20C4D38400C704C8 /* LaunchScreen.storyboard */,
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1FC70B220C787C900A7C178 /* Model.swift in Sources */,
+				F1F8757E20C6926600997B16 /* EnumerationViewController.swift in Sources */,
+				F1F8758020C695FA00997B16 /* Structure ViewController.swift in Sources */,
 				F1000F9620C4D38400C704C8 /* ViewController.swift in Sources */,
 				F1000F9420C4D38400C704C8 /* AppDelegate.swift in Sources */,
+				F1F8757C20C658F700997B16 /* ClosureViewController.swift in Sources */,
+				F1F8757A20C62E3400997B16 /* TwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.SwiftOne";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,6 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.SwiftOne";
 				PRODUCT_NAME = "$(TARGET_NAME)";
